@@ -1,0 +1,7 @@
+server:
+  port: 8180
+rocketmq:
+  nameServer: 192.168.1.52:9876
+  producer:
+    group: maboGroup
+    topicName: websocket
